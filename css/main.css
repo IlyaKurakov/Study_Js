@@ -1,0 +1,423 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  height: 600px;
+  background: url("../img/PUT YOUR IMAGE HERE.png") no-repeat;
+  background-size: cover;
+  margin-bottom: 200px;
+}
+h1{
+  font-family: 'Lora', serif;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+}
+header a{
+  color: white;
+}
+span{
+  color: #cdc8c8;
+}
+.logo{
+  display: grid;
+  justify-content: space-around;
+  grid-auto-flow: column;
+  margin-bottom: 200px;
+}
+.links ul li{
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color: #178a98;
+}
+#tajam{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+  font-size: 30px;
+}
+#trait{
+  color: #178a98;
+}
+.box{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.box p{
+  color: #cdc8c8;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+.box h1{
+  color: #cdc8c8;
+}
+.btn input{
+  text-align: center;
+  width: 130px;
+  color: #178a98;
+  border: 1px solid #178a98;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  height: 50px;
+}
+.btn{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+.pict img{
+  position: relative;
+  left: 50px;
+}
+.story{
+  display: grid;
+  justify-content: space-around;
+  grid-auto-flow: column;
+}
+.our{
+  position: relative;
+  left: 163px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.wtc{
+  display: grid;
+  height: 600px;
+  justify-content: center;
+  background: url("../img/put.png") no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.wtc img{
+  position: relative;
+  left: 50px;
+  bottom: -200px;
+}
+.text{
+  color: white;
+}
+
+.exp{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.freeblocks,.freeblocks_1{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  text-align: center;
+}
+.freeblocks p,.freeblocks_1 p{
+  color: #bcb9b9;
+}
+.freeblocks h1,.freeblocks_1 h1{
+  color: #504f4f;
+}
+.exp h1{
+  color: #504f4f;
+}
+.one h1{
+  color: #504f4f;
+}
+.exp p{
+  color: #bcb9b9;
+}
+hr{
+  padding: 0;
+  margin: 0;
+}
+.kist{
+  margin-top: 10px;
+}
+.web,.kist,.mobile,.search,.game,.like{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+.web h1,.kist h1,.mobile h1,.search h1,.game h1,.like h1{
+  font-size: 18px;
+}
+.mobile,.search,.kist,.like,.game{
+  position: relative;
+}
+.game{
+  top: 20px;
+}
+.mobile{
+  top: 15px;
+}
+.like{
+  top: 25px;
+}
+.like img{
+  position: relative;
+  bottom: 20px;
+}
+.kist{
+  top: 25px;
+}
+.kist  img{
+  position: relative;
+  bottom: 20px;
+}
+.wood{
+  height: 800px;
+  background: url("../img/wood.png") no-repeat;
+  background-size: cover;
+  margin-bottom: 200px;
+}
+.meet{
+  text-align: center;
+  position: relative;
+  top: 50px
+}
+.meet h1,.meet p{
+  color: #ebe2e2;
+}
+.meet span{
+  color: #acacac88;
+}
+.btn_1 input,.btn_2 input,#press input{
+  color: #178a98;
+  border: 1px solid #178a98;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+.fourblocks{
+  margin-top: 100px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-auto-flow: column;
+}
+.fourblocks{ 
+  font-size: 15px;
+  color: #ebe2e2;
+}
+.fourblocks h2,p{
+  font-size: 15px;
+}
+.founder,.engineer,.designer,.marketing{
+  text-align: center;
+  border: 1px solid #acacac;
+}
+.bcm{
+  color: #ebe2e2;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.btn_1{
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+.btn_1 input{
+  width: 130px;
+  height: 50px;
+}
+.our_1{
+  margin-bottom: 100px;
+  display: grid;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+.one{
+  margin-left: 100px;
+}
+.two{
+   margin-right: 100px;
+   position: relative;
+   top: 20px;
+}
+.two img{
+  position: relative;
+  left: 10px;
+}
+.two a{
+  color: #acacac;
+  font-size: 17px;
+}
+.silverblocks,.silverblocks_1{
+  display: grid;
+  grid-auto-flow: column;
+  background-size: cover;
+}
+.silverblocks_1{
+  margin-bottom: 100px;
+}
+.sb_1{
+  width: 300px;
+  height: 200px;
+  background: #acacac;
+}
+.sb_2{
+  width: 300px;
+  height: 200px;
+  background: #cdc8c8;
+}
+.btn_2{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.btn_2 input{
+  width: 130px;
+  height: 50px;
+}
+.forest{
+  color: #cdc8c8;
+  display: grid;
+  text-align: center;
+  height: 600px;
+  background: url("../img/forest.png") no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.fpic{
+  margin-top: 50px;
+}
+.param{
+  margin-right: 300px;
+  margin-left: 300px;
+}
+.fwf{
+  margin-bottom: 110px;
+}
+.fwf h1{
+  font-size: 17px;
+}
+.peos{
+  display: inline-block;
+}
+.peos img{
+  margin: 10px;
+}
+.form{
+  margin-right: 150px;
+  margin-left: 150px;
+  display: grid;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+.form h1{
+  color: #504f4f;
+}
+.news input[type="text"]{
+  padding: 8px;
+  color: darkgrey;
+}
+.news textarea{
+  padding: 8px;
+  color: darkgrey;
+}
+.client{
+  height: 700px;
+}
+.form input , textarea{
+  width: 500px;
+}
+.form input{
+  height: 30px;
+}
+.form textarea{
+  height: 150px;
+}
+#press{
+  position: relative;
+  top: 100px;
+  right: 520px;
+}
+#press input{
+  width: 150px;
+  height: 50px;
+}
+.column_1 li,.column_2 li{
+  list-style: none;
+}
+.column_1 img,.column_2 img{
+  margin: 20px;
+}
+.column_1,.column_2{
+  position: relative;
+}
+.column_1{
+  right: 60px;
+}
+.column_2{
+  left: 150px;
+  bottom: 442px;
+}
+.footer{
+  display: grid;
+  justify-content: space-around;
+  grid-auto-flow: column;
+  height: 400px;
+  background:url("../img/note.png") no-repeat;
+  block-size: cover;
+  color: #e1ddf0;
+}
+.privacy ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 30px;
+}
+.stay{
+  margin-right: 50px;
+}
+.tm{
+  position: relative;
+  left: 65px;
+  bottom: 65px;
+  font-size: 15px;
+}
+#tjmm{
+  position: relative;
+  top: 20px;
+}
+#help{
+  position: relative;
+  top: 80px;
+  right: 70px;
+}
+.studio img{
+  position: relative;
+  right: 20px;
+}
+#ruko{
+  position: relative;
+  top: 40px;
+}
+#number{
+  position: relative;
+  top: 60px;
+}
+.touch img{
+  position: relative;
+  top: 50px;
+}
+.ftn img{
+  position: relative;
+  top: 100px;
+  margin: 5px;
+  left: -8px;
+}
+.copy{
+  position: relative;
+  top: 150px;
+}
